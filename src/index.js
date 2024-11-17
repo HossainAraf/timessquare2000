@@ -1,5 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Sufism from './components/Sufism';
 import SufiQuotes from './components/SufiQuotes';
@@ -10,6 +12,7 @@ import MuslimHistory from './components/MuslimHistory';
 function App() {
   return (
     <Router>
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sufism" element={<Sufism />} />
@@ -18,6 +21,7 @@ function App() {
         <Route path="/sufi-music" element={<SufiMusic />} />
         <Route path="/muslim-history" element={<MuslimHistory />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
