@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={< />} />
+        <Route path="/" element={< />} />
+      </Routes>
+    </Router>
+  );
+}
 
-reportWebVitals();
+export default App;
