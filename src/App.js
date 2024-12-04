@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Footer from './components/Footer';
 import Home from './components/Home';
 import Sufism from './components/Sufism/Sufism';
+import SufiConcept from './components/Sufism/SufiConcept';
 // import SufiQuotes from './components/SufiQuotes';
 // import SufiPoetry from './components/SufiPoetry';
 // import SufiMusic from './components/SufiMusic';
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sufism" element={<Sufism />} />
+        <Route path="/sufi-concept" element={<SufiConcept />} />
         {/* <Route path="/sufi-quotes" element={<SufiQuotes />} />
         <Route path="/sufi-poetry" element={<SufiPoetry />} />
         <Route path="/sufi-music" element={<SufiMusic />} />
