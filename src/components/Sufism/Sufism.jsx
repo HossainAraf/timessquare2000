@@ -1,5 +1,5 @@
 import React from 'react';
-import arafat from '../assets/img/arafat.jpg';
+import arafat from '../../assets/img/arafat.jpg';
 
 function SufismPage() {
   return (
