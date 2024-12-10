@@ -24,9 +24,6 @@ function ReadMore({ children }) {
         type="button"
         onClick={toggleReadMore}
         className="read-or-hide"
-        style={{
-          color: 'green', background: 'none', border: 'none', cursor: 'pointer',
-        }}
       >
         {isReadMore ? '...read more' : ' show less'}
       </button>
