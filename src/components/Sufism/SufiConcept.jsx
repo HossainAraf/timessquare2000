@@ -1,4 +1,5 @@
 import ReadMore from '../shared/ReadMore';
+import '../../styles/sufi-concept.css';
 
 const generateRandomId = () => crypto.randomUUID();
 
@@ -49,9 +50,10 @@ function SufiConcept() {
     <div className="sufi-concept">
       <h1>Concept of Sufism</h1>
       {stories.map((story) => (
-        <div key={story.id} className={story.className}>
+        <div key={story.id} className={`story ${story.className}`}>
           <h2>{story.title}</h2>
           <ReadMore>{story.content}</ReadMore>
+          <hr />
         </div>
       ))}
     </div>

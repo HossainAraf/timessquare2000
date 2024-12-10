@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import '../../styles/read-more.css';
 
 function ReadMore({ children }) {
   // Convert React children into an array and extract the text content
