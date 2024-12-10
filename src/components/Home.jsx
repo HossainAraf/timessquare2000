@@ -24,7 +24,6 @@ function Home() {
           <p>Read More</p>
         </div>
       </Link>
-      
     </div>
   );
 }

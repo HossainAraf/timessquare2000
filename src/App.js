@@ -9,6 +9,7 @@ import SufiConcept from './components/Sufism/SufiConcept';
 // import SufiPoetry from './components/SufiPoetry';
 // import SufiMusic from './components/SufiMusic';
 // import MuslimHistory from './components/MuslimHistory';
+import TourismPage from './components/Tourism/Tourism';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/sufi-poetry" element={<SufiPoetry />} />
         <Route path="/sufi-music" element={<SufiMusic />} />
         <Route path="/muslim-history" element={<MuslimHistory />} /> */}
+        <Route path="/tourism" element={<TourismPage />} />
       </Routes>
       {/* <Footer /> */}
     </Router>
