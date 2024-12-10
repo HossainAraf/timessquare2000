@@ -7,7 +7,17 @@ body {
   color: white;
 }
 
-/*
+h1 {
+  font-size: x-large;
+  color: yellowgreen;
+}
+
+h2 {
+  font-size: medium;
+  color: whitesmoke;
+}
+
 hr {
-  background-color: blue;
-} */
+  border-color: rgb(69, 16, 16);
+  border-style: dotted;
+}
