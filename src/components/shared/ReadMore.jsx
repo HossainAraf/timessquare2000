@@ -2,7 +2,17 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 function ReadMore({ children }) {
-  const text = children;
+  // Convert React children into an array and extract the text content
+  const text = React.Children.toArray(children).map((child) => {
+    if (typeof child === 'string') {
+      return child;
+    }
+    if (React.isValidElement(child)) {
+      return child.props.children;
+    }
+    return '';
+  }).join(' ');
+
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
