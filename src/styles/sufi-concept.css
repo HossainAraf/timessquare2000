@@ -1,0 +1,15 @@
+.sufi-concept {
+  display: flex;
+  flex-direction: column;
+  margin: 1% 2%;
+  padding: 1.8%;
+}
+
+/* h1 {
+
+} */
+
+.story {
+  margin: 1% 0;
+  color: yellowgreen;
+}

@@ -1,21 +1,20 @@
 import ReadMore from '../shared/ReadMore';
-import '../../styles/sufi-concept.css';
 
 const generateRandomId = () => crypto.randomUUID();
 
-function SufiConcept() {
+function BangladeshTourism() {
   const stories = [
     {
       id: crypto.randomUUID(),
-      title: 'The Significance of Genuine Sufi Guides in Today\'s World',
-      className: 'sufi-guide-story',
+      title: 'The Significance of Genuine Tour Guides in Today\'s World',
+      className: 'Tour-guide-story',
       content: [
         <p key={generateRandomId()}>
-          Sufism, the mystical dimension of Islam,
+          Tourism, the mystical dimension of Islam,
           offers seekers a path to
           divine love and e
           nlightenment.
-          At its core, Sufism
+          At its core, Tourism
           is a journey of self-purification and connection with
           Allah, guided by
           a mentor, the
@@ -30,8 +29,8 @@ function SufiConcept() {
     },
     {
       id: crypto.randomUUID(),
-      title: 'Another Sufi Story for Testing',
-      className: 'sufi-story-test',
+      title: 'Another Tour Story for Testing',
+      className: 'Tour-story-test',
       content: [
         <p key={generateRandomId()}>
           This is another sample st
@@ -47,8 +46,8 @@ function SufiConcept() {
   ];
 
   return (
-    <div className="sufi-concept">
-      <h1>Concept of Sufism</h1>
+    <div>
+      <h1>Concept of Tourism</h1>
       {stories.map((story) => (
         <div key={story.id} className={`story ${story.className}`}>
           <h2>{story.title}</h2>
@@ -60,4 +59,4 @@ function SufiConcept() {
   );
 }
 
-export default SufiConcept;
+export default BangladeshTourism;

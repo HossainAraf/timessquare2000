@@ -9,6 +9,8 @@ import SufiConcept from './components/Sufism/SufiConcept';
 // import SufiPoetry from './components/SufiPoetry';
 // import SufiMusic from './components/SufiMusic';
 // import MuslimHistory from './components/MuslimHistory';
+import TourismPage from './components/Tourism/Tourism';
+import BangladeshTourism from './components/Tourism/BangladeshTourism';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/sufi-poetry" element={<SufiPoetry />} />
         <Route path="/sufi-music" element={<SufiMusic />} />
         <Route path="/muslim-history" element={<MuslimHistory />} /> */}
+        <Route path="/tourism" element={<TourismPage />} />
+        <Route path="/bangladesh-tourism" element={<BangladeshTourism />} />
       </Routes>
       {/* <Footer /> */}
     </Router>
