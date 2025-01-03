@@ -1,5 +1,6 @@
 // IMPORTS
 import { useState } from 'react';
+import AnimatedText from './AnimatedText';
 import '../../styles/nav.css';
 
 // COMPONENT
@@ -14,6 +15,7 @@ function Nav() {
   return (
     <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
+        <AnimatedText />
         {/* HAMBURGER MENU */}
         <div>
           <button onClick={toggleMenu} type="button" className="text-white focus:outline-none">
