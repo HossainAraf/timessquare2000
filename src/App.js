@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Nav from './components/Nav';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Sufism from './components/Sufism/Sufism';
 import SufiConcept from './components/Sufism/SufiConcept';
@@ -29,7 +29,7 @@ function App() {
         <Route path="/bangladesh-tourism" element={<BangladeshTourism />} />
         <Route path="/timessquare" element={<TimesSquarePage />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
