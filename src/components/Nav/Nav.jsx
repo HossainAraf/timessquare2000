@@ -1,6 +1,6 @@
 // IMPORTS
 import { useState } from 'react';
-import '../../Styles/nav.css';
+// import '../../Styles/nav.css';
 
 // COMPONENT
 function Nav() {
