@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Nav from './components/Nav';
+import Nav from './components/Nav/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Sufism from './components/Sufism/Sufism';
@@ -16,7 +16,7 @@ import TimesSquarePage from './components/TimesSquare/TimesSquare';
 function App() {
   return (
     <Router>
-      {/* <Nav /> */}
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sufism" element={<Sufism />} />
