@@ -11,6 +11,7 @@ import SufiConcept from './components/Sufism/SufiConcept';
 // import MuslimHistory from './components/MuslimHistory';
 import TourismPage from './components/Tourism/Tourism';
 import BangladeshTourism from './components/Tourism/BangladeshTourism';
+import VietnamTourism from './components/Tourism/VietnamTourism';
 import TimesSquarePage from './components/TimesSquare/TimesSquare';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/muslim-history" element={<MuslimHistory />} /> */}
         <Route path="/tourism" element={<TourismPage />} />
         <Route path="/bangladesh-tourism" element={<BangladeshTourism />} />
+        <Route path="/vietnam-tourism" element={<VietnamTourism />} />
         <Route path="/timessquare" element={<TimesSquarePage />} />
       </Routes>
       <Footer />
